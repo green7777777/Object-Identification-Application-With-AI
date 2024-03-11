@@ -10,7 +10,7 @@ config = tensorflow.compat.v1.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.8
 sess = tensorflow.compat.v1.InteractiveSession(config=config)
 
-DATADIR = "D:/Moje dokumenty/Studia/Semestr 6/WMA/LAB04/Images"
+DATADIR = "/Images"
 CATEGORIES = ["Banana", "Orange", "Lemon"]
 IMG_SIZE = 100
 imgset = ImageDataGenerator(validation_split=0.1)

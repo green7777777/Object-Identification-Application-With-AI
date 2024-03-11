@@ -11,9 +11,9 @@ def prepare(filepath):
 
 prediction_name = ["Banana", "Lemon", "Orange"]
 model = tf.keras.models.load_model(
-    "D:/Moje dokumenty/Studia/Semestr 6/WMA/LAB04/1-conv-128-nodes-2-dense-1652225337.model")
+    "") #Path to trained model file
 
-prediction = model.predict([prepare('D:/Moje dokumenty/Studia/Semestr 6/WMA/LAB04/test/11.jpeg')])
+prediction = model.predict([prepare('')]) #Path to photo of desired object to identify
 print("Prediction Banana =", prediction[0][0])
 print("Prediction Lemon =", prediction[0][1])
 print("Prediction Orange =", prediction[0][2])

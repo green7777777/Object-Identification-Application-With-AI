@@ -3,7 +3,7 @@ import os
 import random
 import numpy as np
 
-DATADIR = "D:/Moje dokumenty/Studia/Semestr 6/WMA/LAB04/Images"
+DATADIR = "/Images"
 CATEGORIES = ["Banana", "Orange", "Lemon"]
 
 rotation_list = [cv2.ROTATE_90_CLOCKWISE, cv2.ROTATE_180, cv2.ROTATE_90_COUNTERCLOCKWISE, None]
